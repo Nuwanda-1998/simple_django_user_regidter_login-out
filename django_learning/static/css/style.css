@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_container {
+    background-color: aqua;
+    padding: 100px;
+}
+li {
+    list-style: none;
+    float: left;
+    font-size: 350%;
+    color: yellowgreen;
+    text-decoration: none;
+    margin: 50px;
+    margin-top: 0;
+}
+li:last-child {
+    float: right;
+}
+
+a:link,
+a:visited {
+    /* margin-left: 60px; */
+    margin: 20px;
+
+}
+
+a:hover,
+a:active {
+    color: violet;
+}
+
+h1 {
+    color: olivedrab;
+    font-size: 430%;
+    padding: 40px;
+    text-align: center;
+}
+form {
+    background-color: olivedrab;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+form label {
+    color: purple;
+
+}
+
+form p {
+    padding: 20px;
+    font-size: 200%;
+}
+.submit_btn {
+    padding: 20px;
+    border-radius: 200%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    background-color: red;
+    text-transform: uppercase;
+    color: sandybrown;
+}
